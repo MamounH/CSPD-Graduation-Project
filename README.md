@@ -21,8 +21,8 @@ Click on Image to watch the Promo
 
 ### User Interface Samples
 
-![GitHub Logo](/images/1.png)
-![GitHub Logo](/images/2.png)
+![GitHub Logo](/images/1.png) ![GitHub Logo](/images/2.png)
+
 
 
 ### Motivation
