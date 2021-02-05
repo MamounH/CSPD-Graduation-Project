@@ -64,9 +64,7 @@ government electronically, it will Improve the quality of services and reduce bu
 
 ### Contact
 
-## Contact
-
-Mamoun Abu Koush - Mamounhayel@gmail.com
+Mamoun Abu Koush - :e-mail: Mamounhayel@gmail.com
 
 LinkedIn: [https://www.linkedin.com/in/mamounhayel/](https://www.linkedin.com/in/mamounhayel/)
 
