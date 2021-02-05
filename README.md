@@ -15,8 +15,9 @@ A general rule of thumb is to spend about as much time promoting your product
 as you do create them. So, i created a promotional video for my graduation project, i
 used Adobe After Effects to produce the promo
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lcLw7iJr-5I/0.jpg)](https://www.youtube.com/watch?v=lcLw7iJr-5I)
+[![Click Here to View Promo](https://img.youtube.com/vi/lcLw7iJr-5I/0.jpg)](https://www.youtube.com/watch?v=lcLw7iJr-5I)
 
+Click on Image to watch the Promo
 
 ### Motivation
 Unfortunately, unlike other departments in Jordan, the CSPD doesn’t offer many services online for Jordanian citizens. According to the satisfaction of citizens on Egovernment services report (2018), out of 2,091,577 Jordanians and residents of Jordan who
