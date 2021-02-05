@@ -1,5 +1,5 @@
 # Smart Phone Application For Jordanian Civil Status and Passport Deparment 
-## Jordan Univierist of Science and Technology
+## Jordan University of Science and Technology
 
 ### Introduction 
 Our application, GovApp, will provide efficient and faster delivery mechanism for citizen
@@ -9,6 +9,14 @@ also by the Civil Status and Passport Services (CSPD). The user can apply for it
 The application will be designed and implemented in a responsive, flexible and interactive
 design; such that it requires least number of user actions/interaction to get the content
 delivered and presented.
+
+### Promo 
+A general rule of thumb is to spend about as much time promoting your product
+as you do create them. So, i created a promotional video for my graduation project, i
+used Adobe After Effects to produce the promo
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lcLw7iJr-5I/0.jpg)](https://www.youtube.com/watch?v=lcLw7iJr-5I)
+
 
 ### Motivation
 Unfortunately, unlike other departments in Jordan, the CSPD doesn’t offer many services online for Jordanian citizens. According to the satisfaction of citizens on Egovernment services report (2018), out of 2,091,577 Jordanians and residents of Jordan who
