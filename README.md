@@ -68,4 +68,3 @@ Mamoun Abu Koush - :e-mail: Mamounhayel@gmail.com
 
 LinkedIn: [Mamoun Hayel](https://www.linkedin.com/in/mamounhayel/)
 
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/mamounhayel/]
