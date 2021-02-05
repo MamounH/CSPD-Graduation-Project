@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Admin Civil</string>
+    <string name="login_admin">Select Login Type</string>
+    <string name="admin">Admin</string>
+    <string name="employee">Employee</string>
+    <string name="enter_your_user_name">Enter your user name</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="your_username_not_created">Your username not created!</string>
+    <string name="something_went_wrong">Something went wrong check your internet</string>
+    <string name="status_login">0</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="delete_employee">Delete Employee</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="download_data">Download Data</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="please_enter_username_new_employee">Please enter username new employee</string>
+    <string name="please_enter_password_for_employee">Please enter password for employee</string>
+    <string name="create_new_employee">Create new Employee</string>
+    <string name="the_user_already_exists">The user already exists</string>
+    <string name="successful_upload_data">Successful upload data</string>
+    <string name="paterfamilias">Paterfamilias :</string>
+    <string name="national_number">National Number :</string>
+    <string name="book_number">Book Number :</string>
+    <string name="place_issue">Place issue :</string>
+    <string name="civil_and_citizenship_department">Civil and citizenship department</string>
+    <string name="key_notification">AAAA5LHngkI:APA91bHwhJbPDs_xTLRwSaxckQ3Bg2ExEN5h4BMu-p8fgaGh8KL7n7UpJozBUqrsyhRzzrk1R-f9gfy0Qx_IQil7UmcuYuURwZ2c4jzeh4gp2skH54JDSh0f1I2FILcX1egyIhW_-JR2</string>
+    <string name="name_request">Name request</string>
+    <string name="your_request_has_been_rejected">Your request has been rejected</string>
+    <string name="approve">Approve</string>
+    <string name="a_request_has_been_approved">A request has been approved</string>
+
+
+</resources>
