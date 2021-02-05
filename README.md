@@ -55,9 +55,18 @@ region have launched some websites and applications that are similar to our prop
 application and they were widely used by the citizens of those countries.
 
 ### Solution
-Our proposed solution is to create a mobile application for the CSPD that can be accessed
+My proposed solution is to create a mobile application for the CSPD that can be accessed
 via the internet at any time or anywhere. Having services available 24/7 will save time and
 money and users can access all services via single portal. They can download and apply for
 services via electronic forms. Also, they can upload documents that are required for some
 specific services that are provided by the CSPD. By making the citizens interact with
 government electronically, it will Improve the quality of services and reduce bureaucracy.
+
+### Contact
+
+## Contact
+
+Mamoun Abu Koush - Mamounhayel@gmail.com
+
+LinkedIn: [https://www.linkedin.com/in/mamounhayel/](https://www.linkedin.com/in/mamounhayel/)
+
