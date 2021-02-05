@@ -23,6 +23,12 @@ Click on Image to watch the Promo
 
 ![GitHub Logo](/images/1.png) ![GitHub Logo](/images/2.png) ![GitHub Logo](/images/2.png)
 
+<p float="left">
+  <img src="/images/1.png" width="100" />
+  <img src="/images/1.png" width="100" /> 
+  <img src="/images/1.png" width="100" />
+</p>
+
 
 
 
