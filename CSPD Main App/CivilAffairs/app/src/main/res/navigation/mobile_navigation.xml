@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+    >
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.civilaffairs.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.civilaffairs.ui.home.HomeFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment android:id="@+id/nav_department"
+        android:name="com.example.civilaffairs.ui.DepartmentServices.DepartmentServicesFragment"
+        android:label="@string/department_services"
+        tools:layout="@layout/fragment_department_services"/>
+    <fragment
+        android:id="@+id/nav_user_guide"
+        android:name="com.example.civilaffairs.ui.UserGuide.UserGuideFragment"
+        android:label="@string/user_s_guide"
+        tools:layout="@layout/fragment_user_guide" />
+
+    <fragment
+        android:id="@+id/nav_open_times"
+        android:name="com.example.civilaffairs.ui.OpenTimes.OpenTimesFragment"
+        android:label="@string/opening_times"
+        tools:layout="@layout/fragment_open_times" />
+
+    <fragment android:id="@+id/nav_setting"
+        android:name="com.example.civilaffairs.ui.Settings.SettingsFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_settings"/>
+
+
+</navigation>

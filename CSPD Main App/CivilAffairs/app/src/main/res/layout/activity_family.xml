@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.DepartmentServices.FamilyServices.FamilyActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/img_family"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="32dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_add"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/et_paterfamilias"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/img_family"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edt_background"
+            android:hint="@string/please_enter_paterfamilias_name"
+            android:textAlignment="center"
+            android:textColor="#212121"
+            tools:ignore="Autofill,TextFields" />
+
+        <EditText
+            android:id="@+id/et_address_family"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/et_paterfamilias"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edt_background"
+            android:hint="@string/please_enter_your_address"
+            android:textAlignment="center"
+            android:textColor="#212121"
+            tools:ignore="Autofill,TextFields" />
+
+        <EditText
+            android:id="@+id/et_national"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/et_address_family"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edt_background"
+            android:hint="@string/enter_the_national_number_of_paterfamilias"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textAlignment="center"
+            android:textColor="#212121"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/et_book_num"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/et_national"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edt_background"
+            android:hint="@string/please_enter_your_book_number"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#212121"
+            tools:ignore="Autofill" />
+
+        <Spinner
+            android:id="@+id/sp_place_issue"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/et_book_num"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@id/tx_sp_place"
+            android:background="@drawable/edt_background" />
+
+        <TextView
+            android:id="@+id/tx_sp_place"
+            style="@style/style_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_book_num"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/select_place_issue"
+            android:textStyle="bold"
+
+            />
+
+        <EditText
+            android:id="@+id/et_calender"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/sp_place_issue"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="18dp"
+            android:layout_toStartOf="@id/tx_date"
+            android:background="@drawable/edt_background"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:hint="@string/yyyy_mm_dd"
+            android:inputType="date"
+            android:textAlignment="center"
+            tools:ignore="Autofill,TextFields" />
+
+        <TextView
+            android:id="@+id/tx_date"
+            style="@style/style_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sp_place_issue"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/release_date"
+            android:textStyle="bold"
+
+            />
+
+        <Spinner
+            android:id="@+id/sp_status"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/et_calender"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@id/tx_sp_place"
+            android:visibility="gone"
+            android:background="@drawable/edt_background" />
+
+        <TextView
+            style="@style/style_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_calender"
+            android:visibility="gone"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:text="Select type request"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/bt_submission"
+            style="@style/style_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sp_status"
+            android:layout_margin="64dp"
+            android:background="@drawable/edt_background"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/submission_of_the_application"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#212121"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:ignore="UnusedAttribute" />
+    </RelativeLayout>
+
+
+</ScrollView>

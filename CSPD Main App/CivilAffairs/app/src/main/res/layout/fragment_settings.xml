@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gry"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tx_create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="@string/edit_profile"
+style="@style/style_font"            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tx_create_account"
+            android:background="#FFFFFF" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_card"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="50dp"
+            app:cardPreventCornerOverlap="false">
+
+            <ImageView
+                android:id="@+id/img_account"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_add"
+                android:padding="16dp"
+                tools:ignore="ContentDescription" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tx_add_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_card"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="@string/edit_profile_image"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx_add_img"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="4dp"
+            android:weightSum="3">
+
+            <EditText
+                android:id="@+id/et_firstName"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/edt_background"
+                android:hint="@string/first"
+                android:textAlignment="center"
+                android:inputType="textPersonName"
+                android:textColor="#000"
+                tools:ignore="TextFields" />
+
+            <EditText
+                android:id="@+id/et_middleName"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/edt_background"
+                android:hint="@string/middle"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#000"
+                tools:ignore="TextFields" />
+
+            <EditText
+                android:id="@+id/et_lastName"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:background="@drawable/edt_background"
+                android:hint="@string/last"
+                android:textAlignment="center"
+                android:textColor="#000"
+                tools:ignore="TextFields" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rd_group"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/lay"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edt_background"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RadioButton
+                android:id="@+id/rd_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+
+                android:layout_weight="1"
+                android:text="@string/male" />
+
+            <RadioButton
+                android:id="@+id/rd_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_weight="1"
+                android:text="@string/female" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/et_calender"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/rd_group"
+            android:layout_alignStart="@id/rd_group"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="17dp"
+            android:layout_toStartOf="@id/tx_date"
+            android:background="@drawable/edt_background"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:hint="@string/yyyy_mm_dd"
+            android:inputType="date"
+            android:textAlignment="center"
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:id="@+id/tx_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rd_group"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/date_of_birth"
+style="@style/style_font"            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_ID"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/et_calender"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:background="@drawable/edt_background"
+            android:hint="@string/enter_your_nationality_number"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/sp_place"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/et_ID"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@+id/tx_place"
+            android:background="@drawable/edt_background" />
+
+        <TextView
+            android:id="@+id/tx_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_ID"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/place_of_registration"
+style="@style/style_font"            android:textSize="17sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/sp_place"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edt_background"
+            android:hint="@string/enter_your_email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/et_email"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edt_background"
+            android:hint="@string/enter_your_phone_number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/et_phone"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edt_background"
+            android:hint="@string/enter_your_password"
+            android:inputType="textPassword"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/et_password"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edt_background"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            tools:ignore="Autofill" />
+
+        <Spinner
+            android:id="@+id/sp_social"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/et_confirm_password"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@+id/tx_social"
+            android:background="@drawable/edt_background" />
+
+
+        <TextView
+            android:id="@+id/tx_social"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_confirm_password"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/social_status"
+style="@style/style_font"            android:textSize="17sp"
+            android:textStyle="bold"
+
+            />
+
+        <RadioButton
+            android:id="@+id/rd_confirm_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sp_social"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/all_information_you_entered_is_correct_and_i_accept_responsibility_for_any_error_in_the_information_entered"
+style="@style/style_font"            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/bt_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_below="@id/rd_confirm_data"
+            android:text="@string/edit_profile"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            style="@style/style_font"
+            android:background="@drawable/edt_background"
+            android:layout_margin="32dp"
+            tools:ignore="UnusedAttribute" />
+
+    </RelativeLayout>
+
+</ScrollView>

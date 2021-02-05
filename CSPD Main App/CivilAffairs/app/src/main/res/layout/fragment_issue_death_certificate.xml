@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DepartmentServices.BirthServices.DeathCertificate.IssueDeathCertificateFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/img_card_death"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/style_font"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_below="@id/img_card_death"
+        android:text="@string/select_image_card"/>
+
+    <Spinner
+        android:id="@+id/sp_relation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/img_card_death"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:textAlignment="center"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edt_background" />
+
+    <ImageView
+        android:id="@+id/img_family_death"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_add"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sp_relation"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/style_font"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_below="@id/img_family_death"
+        android:text="@string/select_image_family_book"/>
+
+    <EditText
+        android:id="@+id/et_name_death"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edt_background"
+        android:layout_below="@+id/img_family_death"
+        android:layout_marginTop="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/deceased_name"
+        android:textAlignment="center"
+        />
+
+
+    <Button
+        android:id="@+id/bt_submission"
+        style="@style/style_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_name_death"
+        android:layout_margin="64dp"
+        android:background="@drawable/edt_background"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="@string/submission_of_the_application"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#212121"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:ignore="UnusedAttribute" />
+    </RelativeLayout>
+
+</ScrollView>

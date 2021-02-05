@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "982237282882",
+    "firebase_url": "https://civil-affairs-4fbcc.firebaseio.com",
+    "project_id": "civil-affairs-4fbcc",
+    "storage_bucket": "civil-affairs-4fbcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982237282882:android:42b3d0d00cfa82653f23db",
+        "android_client_info": {
+          "package_name": "com.example.civilaffairs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982237282882-q2l30p41vd2ovtjhipgvlg7248kf7dep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.civilaffairs",
+            "certificate_hash": "e4126f7fde67395997838f0c2cde8281105e4a1d"
+          }
+        },
+        {
+          "client_id": "982237282882-06ippcs9occ26h5ti3oub6tte5eav29l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuRuUT6c1eF7A2Bo4XlBlhqbzgeh9UWgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982237282882-06ippcs9occ26h5ti3oub6tte5eav29l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

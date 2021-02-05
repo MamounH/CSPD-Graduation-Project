@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gry"
+    tools:context=".ui.home.HomeFragment"
+    >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/logo_img"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/login_logo"
+                android:scaleType="fitXY"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:id="@+id/lay_services"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logo_img"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/crown"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/department_services"
+                    android:textColor="#000"
+
+                    android:textSize="19sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/lay_services"
+                android:layout_margin="8dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/lay_guide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/star"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/user_s_guide"
+                    android:textColor="#000"
+
+                    android:textSize="19sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/lay_guide"
+                android:layout_margin="8dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/lay_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view2"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/world"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/opening_times_and_the_location_of_the_department"
+                    android:textColor="#000"
+                    android:textSize="19sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/lay_time"
+                android:layout_margin="8dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/lay_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view3"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/settings"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/account_settings"
+                    android:textColor="#000"
+                    android:textSize="19sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/lay_setting"
+                android:layout_margin="8dp"
+                android:background="@android:color/darker_gray" />
+
+            <ImageButton
+                android:id="@+id/bt_img_call"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_below="@id/view4"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="64dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/phone"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/bt_img_twitter"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_below="@id/view4"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="64dp"
+                android:layout_toEndOf="@id/bt_img_call"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/twitter"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/bt_img_facebook"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_below="@id/view4"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="64dp"
+                android:layout_toEndOf="@id/bt_img_twitter"
+                android:layout_marginBottom="32dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/facebook"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+
+</ScrollView>
