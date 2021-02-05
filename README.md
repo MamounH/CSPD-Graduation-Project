@@ -2,7 +2,7 @@
 ## Jordan University of Science and Technology
 
 ### Introduction 
-Our application, GovApp, will provide efficient and faster delivery mechanism for citizen
+My Graduation Project, GovApp, will provide efficient and faster delivery mechanism for citizen
 services. It will also reduce the workload done by department personnel. Any Jordanian citizen
 can sign up and use the application, he will be offered a variety of services that are provided
 also by the Civil Status and Passport Services (CSPD). The user can apply for it from his home.
@@ -18,6 +18,12 @@ used Adobe After Effects to produce the promo
 [![Click Here to View Promo](https://img.youtube.com/vi/lcLw7iJr-5I/0.jpg)](https://www.youtube.com/watch?v=lcLw7iJr-5I)
 
 Click on Image to watch the Promo
+
+### User Interface Samples
+
+![GitHub Logo](/images/1.png)
+![GitHub Logo](/images/2.png)
+
 
 ### Motivation
 Unfortunately, unlike other departments in Jordan, the CSPD doesn’t offer many services online for Jordanian citizens. According to the satisfaction of citizens on Egovernment services report (2018), out of 2,091,577 Jordanians and residents of Jordan who
